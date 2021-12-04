@@ -1,0 +1,16 @@
+{
+  "name": "jay-templar-archives",
+  "version": "1.0.0",
+  "description": "제이의 기록보관소",
+  "main": "index.js",
+  "repository": "https://github.com/dongjay00/jay-templar-archives",
+  "author": "dongjay00",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.8.2"
+  }
+}
