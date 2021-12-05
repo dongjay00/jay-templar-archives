@@ -1,7 +1,7 @@
 {
   "name": "jay-templar-archives",
   "version": "1.0.0",
-  "description": "제이의 기록보관소",
+  "description": "공부한 기록을 남기는 공간",
   "main": "index.js",
   "repository": {
     "type": "git",
@@ -10,8 +10,8 @@
   "keywords": [],
   "author": "dongjay00",
   "scripts": {
-    "docs:dev": "vuepress dev .",
-    "docs:build": "vuepress build ."
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
   },
   "bugs": {
     "url": "https://github.com/dongjay00/jay-templar-archives/issues"
@@ -19,8 +19,6 @@
   "homepage": "https://github.com/dongjay00/jay-templar-archives#readme",
   "license": "MIT",
   "devDependencies": {
-    "vuepress": "^1.8.2",
-    "@vuepress/plugin-google-analytics": "^1.8.2",
-    "@vuepress/plugin-pwa": "^1.8.2"
+    "vuepress": "^1.5.3"
   }
 }
