@@ -1,6 +1,7 @@
 module.exports = {
   title: "제이의 기록보관소",
   description: "공부한 기록을 남기는 공간",
+  dest: "./dist",
   base: "/jay-templar-archives/",
   head: [
     ["link", { rel: "icon", href: "/images/favicon.ico" }],

@@ -10,8 +10,8 @@
   "keywords": [],
   "author": "dongjay00",
   "scripts": {
-    "dev": "vuepress dev docs",
-    "build": "vuepress build docs"
+    "docs:dev": "vuepress dev .",
+    "docs:build": "vuepress build ."
   },
   "bugs": {
     "url": "https://github.com/dongjay00/jay-templar-archives/issues"
