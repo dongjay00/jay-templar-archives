@@ -3,14 +3,24 @@
   "version": "1.0.0",
   "description": "제이의 기록보관소",
   "main": "index.js",
-  "repository": "https://github.com/dongjay00/jay-templar-archives",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dongjay00/jay-templar-archives.git"
+  },
+  "keywords": [],
   "author": "dongjay00",
   "scripts": {
-    "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs"
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs"
   },
+  "bugs": {
+    "url": "https://github.com/dongjay00/jay-templar-archives/issues"
+  },
+  "homepage": "https://github.com/dongjay00/jay-templar-archives#readme",
   "license": "MIT",
   "devDependencies": {
-    "vuepress": "^1.8.2"
+    "vuepress": "^1.8.2",
+    "@vuepress/plugin-google-analytics": "^1.8.2",
+    "@vuepress/plugin-pwa": "^1.8.2"
   }
 }
