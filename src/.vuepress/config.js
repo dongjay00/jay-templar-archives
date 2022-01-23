@@ -55,7 +55,7 @@ module.exports = {
       },
       {
         text: "📝  Portfolio",
-        link: "http://dongjay00.kdt-gitlab.elice.io/donghoon-homepage/",
+        link: "https://general-viola-ee5.notion.site/Donghoon-Lee-5bd1c8b6cd9c40efbc94f61d4cff3212",
       },
     ],
     sidebar: {
