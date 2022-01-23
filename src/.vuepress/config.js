@@ -66,9 +66,9 @@ module.exports = {
           children: ["", "links"],
         },
       ],
-      "/javascript/": [
+      "/react/": [
         {
-          title: "JavaScript",
+          title: "React",
           collapsable: false,
           children: [""],
         },
