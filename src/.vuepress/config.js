@@ -73,6 +73,13 @@ module.exports = {
           children: [""],
         },
       ],
+      "/git/": [
+        {
+          title: "Git",
+          collapsable: false,
+          children: ["", "basic_command"],
+        },
+      ],
     },
   },
   configureWebpack: {
