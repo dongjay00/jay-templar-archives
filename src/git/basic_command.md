@@ -103,3 +103,57 @@
     ```bash
     git clone "원격 저장소 주소"
     ```
+
+- `git branch`
+
+  - 브랜치 확인
+
+    ```bash
+    git branch -a
+    ```
+
+  - 브랜치 생성
+
+    ```bash
+    git branch "생성할 브랜치명"
+    ```
+
+  - 브랜치 제거
+
+    ```bash
+    git branch -d "삭제할 브랜치명"
+    ```
+
+- `git checkout`
+
+  - 작업 브랜치 변경
+
+    ```bash
+    git checkout "변경할 브랜치명"
+    ```
+
+- `git merge`
+
+  - 브랜치 병합
+
+    ```bash
+    git merge "병합할 브랜치명"
+    ```
+
+- `git pull`
+
+  - 원격 저장소 변경 내역 가져오기 + 병합
+
+    ```bash
+    git pull "원격 저장소 식별자" "원격 저장소 브랜치"
+    ```
+
+- `git fetch`
+
+  - 원격 저장소 변경 내역 가져오기
+
+    ```bash
+    git fetch "원격 저장소 식별자" "원격 저장소 브랜치"
+    ```
+
+    
